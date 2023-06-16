@@ -1,0 +1,59 @@
+/* MARK: DEFAULT */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+    color:#321E1E;
+    background-color:#E8A9A9;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+label {
+    margin-bottom:4px;
+    font-size: 18px; 
+    font-weight: bold; 
+    color:#4E3636;
+}
+button {
+    color: white;
+    background-color: #c88383;
+    padding: 7px 15px;
+    margin: 4px;
+    border-color: #E8A9A9;
+    border-radius:8px ;
+    cursor: pointer;
+}
+button:focus {
+    border: solid white;
+}
+button:hover {
+    background-color: #c07676;
+}
+button:active {
+    transform: translateY(3px);
+    background-color: #ba6767;
+}
+/* MARK: ID */
+#inputField { 
+    outline:none;
+    font-size:20px;
+    border-radius: 6px;
+    padding: 10px;
+    border: solid #EEE3CB
+}
+#inputField:focus {
+    border:solid #967E76;
+} 
+/* MARK: CLASS */
+.InputSection {
+    display:flex;
+    flex-direction:column;
+}
+.inputButtonSection {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
